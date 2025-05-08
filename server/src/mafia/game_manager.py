@@ -16,6 +16,14 @@ class GameManager:
             Player("Kev", "Veteran"),
             Player("Andy", "Doctor")
         ]
+    def night event
+
+
+
+
+
+
+
 
     def run_sample_day(self):
         """Simulate a day and a night round."""
