@@ -5,7 +5,7 @@
 from player import Player
 import random
 
-class GameManager: #Dictates players list, phases (day night) and game status
+class GameManager:
     def __init__(self):
         self.players = []
         self.day_count = 1

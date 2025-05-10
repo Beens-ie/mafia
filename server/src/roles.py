@@ -35,4 +35,12 @@ class RoleType(Enum):
     AGENT = "Agent"
     BEGUILER = "Beguiler"
     BLACKMAILER = "Blackmailer "
+    CONSIGLIERE = "Consigliere"
+    DISGUISER = "Disguiser"
+    FRAMER = "Framer"
+    GODFATHER = "Godfather"
+    JANITOR = "Janitor"
+    KIDNAPPER = "Kidnapper"
+    MAFIOSO = "Mafioso"
+    
 
