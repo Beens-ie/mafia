@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=3 uid="uid://clp0ko71awgcm"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_4xowi"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = SubResource("PlaneMesh_4xowi")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.976672, 0.214735, 0, -0.214735, 0.976672, 0.0125484, 0.691473, 1.77239)
+light_color = Color(0.845385, 0.573392, 0.103088, 1)
+light_energy = 1.162
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.642788, 0.766044, 0, -0.766044, 0.642788, 0, 0.665267, 0.907467)
+fov = 96.7278

@@ -11,6 +11,10 @@ class Player:
         # Marks player as eliminated
         self.alive = False
 
+    def assign_role(self, role):
+        self.role = role
+
+
     def __str__(self):
         # Nicely formats player information
         status = "Alive" if self.alive else "Dead and gone"
